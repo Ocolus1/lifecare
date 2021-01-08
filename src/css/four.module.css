@@ -26,6 +26,23 @@
     box-shadow: 0 2px 40px 0 rgba(0,0,0,.1);
 }
 
+@media screen and (max-width: 400px) {
+    .group, .group_s {
+        margin:  3rem 2rem;
+        box-shadow: none;
+    }
+
+    .card {
+        margin: 2rem 1rem;
+        padding: 2.5rem .5rem 2.5rem 1.5rem;
+
+    }
+
+    .icon {
+        padding: 1rem 3rem;
+        font-size: 1rem;
+    } 
+}
 
 @media screen and (min-width: 400px) {
     .group, .group_s {
