@@ -20,7 +20,7 @@ export default function Contact() {
     const onSubmit = async (data) => {
 
         try {
-            const result = await fetch("http://lifecare.pythonanywhere.com/view/api/", {
+            const result = await fetch("https://lifecare.pythonanywhere.com/view/api/", {
                 method: "post",
                 headers: {
                     "Accept": "application/json",
