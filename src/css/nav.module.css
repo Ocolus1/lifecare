@@ -1,0 +1,27 @@
+.navright {
+    padding: 1.5rem 3rem;
+    background-color: #FF006E;
+}
+
+.darktext {
+    color: rgb(0, 0, 0, 0.4);
+    margin: 0 1.5rem;
+    text-decoration: none;
+}
+
+.darktext span:active {
+    color: black;
+    border-bottom: 1px solid #FF006E;
+}
+
+.darktext:hover {
+    color: black;
+    border-bottom: 1px solid #FF006E;
+}
+
+.top {
+    
+    font-weight: bolder;
+    background-color: white;
+}
+
