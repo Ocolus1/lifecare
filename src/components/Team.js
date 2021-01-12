@@ -1,5 +1,5 @@
 import React from 'react'
-import vid from "../img/vid_1.mp4"
+import team from "../img/team.jpg"
 import { Container, Row, Col } from "react-bootstrap";
 import founder from "../img/founders_pic.jpg"
 
@@ -10,10 +10,11 @@ export default function Team() {
                 <Row>
                     <Col lg={6}>
                         <div className="text-center">
-                            <video width="100%" height="400" controls>
+                            {/* <video width="100%" height="400" controls>
                                 <source src={vid} type="video/mp4" />
                                 Your browser does not support the video tag.
-                            </video>
+                            </video> */}
+                            <img src={team} alt="companies team" width="100%" height="400" />
                         </div>
                     </Col>
                     <Col lg={6} className="p-3">
